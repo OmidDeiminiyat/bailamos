@@ -1,0 +1,145 @@
+#BodyId {
+  background-image: url("../../../assets/images/man-3384553_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome {
+  text-align: center;
+}
+#welcome h1 {
+  background: linear-gradient(to right, rgb(0, 255, 174), blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 60px;
+}
+#welcome h1 span {
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 60px;
+}
+#welcome p {
+  font-size: 30px;
+  color: white;
+}
+
+.search-container {
+  background-color: rgba(255, 255, 255, 0.1529411765);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-left: 20%;
+}
+.search-container #search-input {
+  background-color: rgba(255, 255, 255, 0.1529411765);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(221, 221, 221, 0.8784313725);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.search-container #search-input:focus + #singer-list {
+  display: block;
+}
+.search-container #search-input:focus + #Paraf {
+  display: none;
+}
+.search-container #singer-list {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.search-container #singer-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.search-container #singer-list lilast-child {
+  border-bottom: none;
+}
+
+#content {
+  display: none;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#content img {
+  width: 100%;
+}
+#content .Bios {
+  margin: -150px 0 0 30px;
+  color: #f5f1ee;
+}
+#content .Bios .bioGroup {
+  display: flex;
+  flex-direction: row;
+}
+#content .Bios .bioGroup span {
+  margin-left: 10px;
+}
+#content .Bios .bioGroup img {
+  width: 100px;
+}
+#content audio {
+  background-color: rgb(71, 248, 248);
+  width: 60%;
+  margin-left: 20%;
+}
+#content .gradient-line {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, rgba(95, 95, 182, 0.868), rgba(160, 160, 219, 0.5));
+  margin: 20px 0;
+}
+#content .tagshover {
+  box-shadow: 3px 0px 20px 3px rgba(0, 0, 0, 0.75);
+}
+#content .tags a {
+  color: rgba(95, 95, 182, 0.868);
+  border: 1px solid rgba(95, 95, 182, 0.868);
+  padding: 6px;
+  text-decoration: none;
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 9px;
+}
+#content p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1529411765);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
+footer ul li {
+  list-style: none;
+}

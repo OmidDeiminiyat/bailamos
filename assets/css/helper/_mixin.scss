@@ -1,0 +1,12 @@
+@mixin myDisp() {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin border($borderColor) {
+    border: 1px solid $borderColor;
+
+}
+
+
+
